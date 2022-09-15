@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `employees`
 --
 
+DROP TABLE IF EXIST `employees`;
+
 CREATE TABLE IF NOT EXISTS `employees` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
